@@ -19,9 +19,10 @@ div {
 	border: 1px solid Chocolate;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3 {
 	font-family: "ff-enzo-web", sans-serif;
 	font-weight: bold;
+	font-size: 5.5em;
 }
 
 /* --- Overview Section --- */
@@ -29,19 +30,30 @@ h1, h2, h3, h4, h5, h6 {
 .overview,
 .selected-projects,
 .footer {
-	padding: 2em 0;
+	padding:0;
 }
 
 .overview-content,
 .projects-content,
 .footer-content {
+	/*display: inline-block;*/
 	width: 60em;
 	max-width: 100%;
 	margin: 0 auto;
 }
 
-.logo {
-	float: left;
+.overview {
+	padding-bottom: 0.5em;
+	margin: 0 auto;
+}
+
+.overview-content {
+	margin: 2em auto;
+	padding: 0.5em 0.5em 12em 0.5em;
+}
+
+.overview-content > .logo {
+	display: inline-block;
 	border: 1px solid #72D677;
 	border-radius: 1.5em;
 	background: #72D677;
@@ -49,37 +61,105 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 2.5em;
 }
 
-.name,
-.description,
-.overview-skills {
+.overview-content > .personal-info {
 	color: #414148;
 	text-align: right;
-	
+	margin-left: 0;
+  padding: 0 0.5em 0 1.6em;
+	float: right;
+}
+
+.name {
+	font-size: 5em;
+	text-align: right;
+}
+
+.personal-info > .description {
+	font-size: 1.8em;
+} 
+
+/*.personal-info > .overview-skills {
+	font-size: 1.5em;
+}*/
+
+/* Icons */
+
+.icons {
+	padding: 0;
+	margin: 0 1.1em 0 0;
 }
 
 .icons > li {
  display: inline;
  font-size: 2em;
- padding-left: 1em;
+ padding-left: 1.4em;
 }
 
-.twitter {
+.icons > .twitter {
 	color: #00ACED;
 }
 
-.github {
+.icons > .github {
 	color: #323131;
 }
 
-.mail {
+.icons > .mail {
 	color: #F9D773
 }
 
 /* --- Selected Projects --- */
 
+.selected-projects {
+	background: #414148;
+	margin:0;
+}
 
+.projects-content {
+	padding-top: 2em;
+}
+
+.projects-content > .projects-header {
+	color: #FFF;
+	text-align: center;
+	margin: 0.5em auto;
+}
+
+hr {
+	width: 50%;
+}
+
+.projects-panel {
+	margin-top: 2em;
+	background: #FFF;
+	padding: 2em 4em;
+}
+
+.projects-panel > .container {
+	width: 400px;
+	height: 360px;
+	border-radius: 0.7em;
+	display: inline-block;
+}
+
+.projects-panel >.container img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.7em;
+}
+
+.projects-panel > .text {
+	display: inline-block;
+}
+/*.aboutme-description {
+	display: inline-block;
+}*/
 
 /* --- Footer --- */
 
+.footer {
+	background: #FFF;
+	color: #414148 ;
+	text-align: center;
+}
 
 

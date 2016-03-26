@@ -15,9 +15,9 @@ body {
 }
 
 /* Delete div below when done*/
-/*div {
+div {
 	border: 1px solid Chocolate;
-}*/
+}
 
 h1, h3 {
 	font-family: "ff-enzo-web", sans-serif;
@@ -175,15 +175,13 @@ hr {
 	margin-left: 4.1em;
 }
 
-.
-
 
 /* --- Footer --- */
 
 .footer {
-	border-radius: 0.5em;
-	background: #FFF;
-	color: #414148 ;
+	background: #72D677;
+	color: #FFF;
+	font-weight: bold;
 	text-align: center;
 }
 

@@ -116,7 +116,7 @@ a {
 
 .selected-projects {
 	background: #414148;
-	margin:0;
+	padding-bottom: 0.5em;
 }
 
 .projects-content {
@@ -179,10 +179,16 @@ hr {
 /* --- Footer --- */
 
 .footer {
+	margin:0;
 	background: #72D677;
 	color: #FFF;
 	font-weight: bold;
 	text-align: center;
+}
+
+.footer p {
+	margin: 0;
+	padding: 1.5em 0;
 }
 
 

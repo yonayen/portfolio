@@ -1,9 +1,16 @@
+/* - 3 colors -
+ #414148 Grey for background of Projects
+ #FFFFFF White for Text on Grey Background
+ #72D677 Green as background for Projects Panel
+*/
+
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: "proxima-nova";
+	font-family: "raleway",sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -13,6 +20,66 @@ div {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "lust";
-	font-weight: 400;
+	font-family: "ff-enzo-web", sans-serif;
+	font-weight: bold;
 }
+
+/* --- Overview Section --- */
+
+.overview,
+.selected-projects,
+.footer {
+	padding: 2em 0;
+}
+
+.overview-content,
+.projects-content,
+.footer-content {
+	width: 60em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	border: 1px solid #72D677;
+	border-radius: 1.5em;
+	background: #72D677;
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+.name,
+.description,
+.overview-skills {
+	color: #414148;
+	text-align: right;
+	
+}
+
+.icons > li {
+ display: inline;
+ font-size: 2em;
+ padding-left: 1em;
+}
+
+.twitter {
+	color: #00ACED;
+}
+
+.github {
+	color: #323131;
+}
+
+.mail {
+	color: #F9D773
+}
+
+/* --- Selected Projects --- */
+
+
+
+/* --- Footer --- */
+
+
+

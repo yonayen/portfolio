@@ -15,9 +15,10 @@ body {
 }
 
 /* Delete div below when done*/
-/*div {
+
+div {
 	border: 1px solid Chocolate;
-}*/
+}
 
 h1, h3 {
 	font-family: "ff-enzo-web", sans-serif;
@@ -143,6 +144,7 @@ hr {
 .container-1,
 .container-2,
 .container-3 {
+	margin: 0 auto;
 	width: 520px;
 	height: 300px;
 	border-radius: 0.7em;
@@ -161,6 +163,7 @@ hr {
 .text-1,
 .text-2,
 .text-3 {
+	margin: 0 auto;
 	width: 300px;
 	display: inline-block;
 	margin-left: 0;

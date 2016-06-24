@@ -10,17 +10,18 @@
 }
 
 body {
-	font-family: "raleway",sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
 /* Delete div below when done*/
+
 div {
 	border: 1px solid Chocolate;
 }
 
 h1, h3 {
-	font-family: "ff-enzo-web", sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight: bold;
 	font-size: 5.5em;
 }
@@ -64,6 +65,7 @@ h1, h3 {
 	text-align: center;
 	line-height: 75px;
 	margin-top: 1.1em;
+	font-family: 'Dosis', sans-serif;
 }
 
 .overview-content > .personal-info {
@@ -116,10 +118,36 @@ a {
 
 .selected-projects {
 	background: #414148;
-	margin:0;
+	padding-bottom: 5em 0;
 }
 
-.projects-content {
+.projects-panel > .box {
+	background-color: #FFF;
+	border-radius: 0.35em;
+	height: 450px;
+	display: table;
+}
+
+.projects-panel > .box-full {
+	width: 100%;
+}
+
+.projects-panel > .box-half {
+	width: 50%;
+}
+
+.projects-panel > .box-third {
+	width: 33%;
+}
+
+.projects-panel > .box_content {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	padding: 1.5em 12%;
+}
+
+/*.projects-content {
 	padding-top: 2em;
 }
 
@@ -138,11 +166,12 @@ hr {
 	background: #FFF;
 	padding: 2em 2em;
 	border-radius: 0.3em;
-}
+}*/
 
 .container-1,
 .container-2,
 .container-3 {
+	margin: 0 auto;
 	width: 520px;
 	height: 300px;
 	border-radius: 0.7em;
@@ -161,6 +190,7 @@ hr {
 .text-1,
 .text-2,
 .text-3 {
+	margin: 0 auto;
 	width: 300px;
 	display: inline-block;
 	margin-left: 0;
@@ -175,16 +205,21 @@ hr {
 	margin-left: 4.1em;
 }
 
-.
-
 
 /* --- Footer --- */
 
 .footer {
-	border-radius: 0.5em;
-	background: #FFF;
-	color: #414148 ;
+	margin:0;
+	background: #78D9BF;
+	color: #FFF;
+	font-weight: bold;
 	text-align: center;
+	font-family: 'Dosis', sans-serif; 
+}
+
+.footer p {
+	margin: 0;
+	padding: 1.5em 0;
 }
 
 
